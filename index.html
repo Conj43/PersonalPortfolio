@@ -12,11 +12,14 @@
     <div id="header">
         <div class="container">
             <nav>
-                <img src="images/logo1.jpeg" class="logo">
+                <div class="golf">
+                    <i class="fa-solid fa-golf-ball-tee"></i>
+                </div>
+                <!-- <img src="images/mulogo.png" class="logo"> -->
                 <ul id ="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
+                    <li><a href="#courses">Courses</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
@@ -24,8 +27,9 @@
                 <i class="fa-solid fa-bars"onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-            <p>Intern</p>
-            <h1>Hi, I'm <span>Connor</span><br> from Mizzou</h1>
+                <h1>Connor Joyce</h1>
+            <p>University of Missouri <br>Computer Science</p>
+            
             </div>
         </div>
     </div>
@@ -35,40 +39,41 @@
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="images/pens.jpeg">
+                    <img src="images/back.jpg">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
-                    <p>Hello my name is connor and i go to mizzou. its pretty cool and i am a comp sci major. i like going to all the sporting events.
-                        I hope to become a software engineer one day and i am really excited about my future career in this field. i cant wait to get started
-                        and to keep learning new things.
+                    <p>My name is Connor Joyce and I am a current student at the University of Missouri. I am pursuing a Bachelors Degree in Computer Science with a minor in Mathematics and a 
+                        certificate in Cyber Security. After my first year of college, I switched my major from Biology to Computer Science. I am very grateful for the oppurtunity to study
+                        Computer Science as it brings me new challenges each and every day. I am now looking to take the next step on my career path and begin my search for a Summer Internship. 
                     </p>
 
                     <div class="tab-titles">
                         <p class ="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class ="tab-links" onclick="opentab('experience')">Experience</p>
                         <p class ="tab-links" onclick="opentab('education')">Education</p>
+                        <p class ="tab-links" onclick="opentab('personal')">Personal</p>
                     </div>
                     <div>
                         <div class="tab-contents active-tab" id = "skills">
                             <ul>
-                                <li><span>IDK</span><br>Algorithms</li>
-                                <li><span>Doing</span><br>Cool Stuff</li>
-                                <li><span>I am very</span><br>Awesome</li>
-                            </ul>
-                        </div>
-                        <div class="tab-contents" id = "experience">
-                            <ul>
-                                <li><span>1999-Current</span><br>Developer at Google</li>
-                                <li><span>1998-1999</span><br>Founder of Amazon</li>
-                                <li><span>1997-1998</span><br>NFL Player</li>
+                                <li><span>Technical</span><br>Java, C, Python, VS Code, Eclipse, <br>GitHub</li>
+                                <li><span>Professional</span><br>Communication, Interpersonal,<br>Leadership, Adaptability</li>
+                                <li><span>Soft</span><br>Patience, Team Player, Emotional Intelligence<br>Active Listening</li>
                             </ul>
                         </div>
                         <div class="tab-contents" id = "education">
                             <ul>
-                                <li><span>2021</span><br>Rolla High</li>
-                                <li><span>2025</span><br>Mizzou Comp Sci</li>
-                                <li><span>2500</span><br>Graduated with PHD</li>
+                                <li><span>2017-2021</span><br>Rolla High School<br>4.0 GPA; Graduated as a Valedictorian</li>
+                                <li><span>2021-2022</span><br>University of Missouri<br>Major in Biology (switched majors after my first year)</li>
+                                <li><span>2022-Present</span><br>University of Missouri<br>Major in Comupter Science</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id = "personal">
+                            <ul>
+                                <li><span>Hobbies</span><br>I enjoy watching and playing almost all sports<br>Some of my favorites include:<br>Basketball, Pickleball, Golf, Football, Baseball and Hockey</li>
+                                <li><span>Family</span><br>A large part of my family is from Pittsburgh, so I am a fan of all their sports teams.</li>
+                                <li><span>Goals</span><br>A big goal of mine is to graduate from the University of Missouri. I am planning to graduate with a Bachelor's Degree in Computer Science
+                                    and a minor in Mathermatics as well as a certificate in Cyber Security. The goal that I am looking to achieve in the near future is to land my first internship. </li>
                             </ul>
                         </div>
                     </div>
@@ -77,33 +82,37 @@
         </div>
     </div>
 
-    <!-- services -->
-<div id="services">
+    <!-- Courses -->
+<div id="courses">
     <div class="container">
-        <h1 class="sub-title">My Services</h1>
-        <div class="services-list">
+        <h1 class="sub-title">My Courses</h1>
+        <div class="courses-list">
             <div>
-                <i class="fa-solid fa-terminal"></i>
-                <h2>Web Design</h2>
-                <p>I designed a bunch of websites and it was pretty lit I had a lot of fun doing it. I'm thinking of making the next
-                    Amazon next but I haven't decided yet tbh. I guess we'll find out soon enough!
+                <i class="fa-solid fa-code"></i>
+                <h2>Technical Courses</h2>
+                
+                <p><span>Algorithm Design & Programming I (Honors)</span> - B+(Fall 2022)<br><br><span>Algorithm Design & Programming II</span> - A (Spring 2023)<br><br><span>Advanced Algorithm Design</span> - A
+                    (Fall 2023)<br><br><span>Introduction to Logic Systems</span> - A (Spring 2023)<br><br><span>Computer Organization and Assembly Language</span> - A (Fall 2023)
                 </p>
-                <a href = "#">Learn more</a>
+                
             </div>
             <div>
-                <i class="fa-solid fa-gamepad"></i>
-                <h2>Programming Fun</h2>
-                <p>I designed a whole bunch of games and stuff like that. It was pretty easy tbh. Im looking for a challege ay my next position frfr!
+                <i class="fa-solid fa-calculator"></i>
+                <h2>Math Courses</h2>
+                <p><br><span>Calculus I</span> - A (Fall 2022)<br><br><br><span>Calculus II</span> - A (Spring 2023)<br><br><br><span>Calculus III</span> - B+ (Summer 2023)
+                    <br><br><br><span>Discrete Math</span> - A (Fall 2023)
                 </p>
-                <a href = "#">Learn more</a>
+                
             </div>
             <div>
-                <i class="fa-solid fa-golf-ball-tee"></i>
-                <h2>Fun Stuff</h2>
-                <p>I have done a lot of fun stuff like play golf. I am pretty much the next Tiger Woods, at least that's what all my friends tell me idk tho.
-                    He really can't hit it as far as me cuz I am really really good.
+                <i class="fa-solid fa-book"></i>
+                <h2>Dean's List</h2>
+                <p>During my time at Mizzou, I have been able to be on the Dean's List every semester. My current cumulative
+                    GPA is 3.94. I am very proud of this accomplishment, but I also know there is more to the field than just doing well in classes. I am looking
+                    to land my first Summer Internship this coming summer. These past 6 months I have learned more inside and outside of the classroom than I ever have before. 
+                    This has allowed me to create some projects and I feel like I truly can do anything with coding! 
                 </p>
-                <a href = "#">Learn more</a>
+                
             </div>
         </div>
     </div>
@@ -116,31 +125,37 @@
         <h1 class="sub-title">My Work</h1>
         <div class="work-list">
             <div class="work">
-                <img src="images/perry.jpeg">
+                <img src="images/tictactoe.png">
                 <div class="layer">
-                    <h3>Perry The Platypus</h3>
-                    <p>he is super cool and he will literally save anyone and everyone</p>
-                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <h3>TicTacToe Game in Java</h3>
+                    <p>Easy to use TicTacToe game created using Java Swing Library. Able to play against a friend, or against the computer.</p>
+                    <a href="https://github.com/Conj43/TicTacToeGUI" target = "_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
             </div>
             <div class="work">
-                <img src="images/download.jpeg">
+                <img src="images/studytool.png">
                 <div class="layer">
-                    <h3>Superhero</h3>
-                    <p>he is basically a superhero</p>
-                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <h3>Study Tool Application in Java</h3>
+                    <p>This application was made using the Java Swing library. It has multiple features that allow you to create study sets, and learn them using flashcards, 
+                        multiple choice quizzes or fill in the blank quizzes.</p>
+                    <a href="https://github.com/Conj43/StudyTool" target = "_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
             </div>
             <div class="work">
-                <img src="images/newPerry.jpeg">
+                <img src="images/drive.png">
                 <div class="layer">
-                    <h3>phineas and ferb</h3>
-                    <p>this is the show hes on</p>
-                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <h3>Machine Learning Driving Game</h3>
+                    <p>This is a group project I worked on as part of the ML/AI group in Mizzou Robotics in
+                        Fall 2023. We used Pygame to create the game, and PyTorch to implement a Deep-Q Learning neural network
+                    </p>
+                    <a href="https://github.com/Conj43/ML-AI-RandG-Group-Fall2023" target = "_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
             </div>
         </div>
-        <a href="#" class = "btn">See More</a>
+        <div class="center-wrapper">
+            <a href="https://github.com/Conj43" target = "_blank"><i class="fa-brands fa-square-github"></i></a>
+        </div>
+        
     </div>
 </div>
 
@@ -152,12 +167,12 @@
             <div class="row">
                 <div class="contact-left">
                     <h1 class = "sub-title">Contact Me</h1>
-                    <p><i class="fa-solid fa-paper-plane"></i>contact@gmail.com</p>
-                    <p><i class="fa-solid fa-phone"></i>123-456-7809</p>
+                    <p><i class="fa-solid fa-paper-plane"></i>steelcity2003@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>678-464-3563</p>
                     <div class="social-icons">
-                        <a href="https://www.linkedin.com/in/connor-joyce43"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/connor-joyce43" target = "_blank"><i class="fa-brands fa-linkedin"></i></a>
                     </div>
-                    <a href="images/resume.pdf" download class = "btn btn2">Download Resume</a>
+                    <a href="images/resume1.pdf" download class = "btn btn2">Download Resume</a>
                 </div>
                 <div class="contact-right">
                 </div>
